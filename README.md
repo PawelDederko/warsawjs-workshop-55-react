@@ -6,6 +6,8 @@ This is an app made in React during WarsawJS Workshop #55 that is a clone of a p
 
 https://apps.dederko.pl/warsawjs-workshop-55-react/
 
+![Screenshot](https://user-images.githubusercontent.com/34214276/122682280-d3c61200-d1f8-11eb-87ae-e056af526108.png)
+
 ## Project setup
 ```
 npm install

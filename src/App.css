@@ -30,6 +30,24 @@
   margin: 8px 0;
 }
 
+.command-button {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-weight: 500;
+  border: 5px solid #776e65;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: #776e65;
+  color: #eee4da;
+  transition-duration: 0.4s;
+  font-size: 14px;
+  width: 102px;
+}
+
+.command-button:hover {
+  background-color: #eee4da;
+  color: #776e65;
+}
+
 .board {
   border-radius: 8px;
   background-color: #776e65;
@@ -45,13 +63,13 @@
 
 .board-cell-content {
   border-radius: 8px;
-  background-color: rgba(238, 228, 218, 0.35);
-  color: #776e65;
+  color: #f9f6f2;
+  background-color: #edc22e;
   min-width: var(--cell-size);
   min-height: var(--cell-size);
   width: var(--cell-size);
   height: var(--cell-size);
-  font-size: 48px;
+  font-size: 24px;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -63,53 +81,56 @@
 }
 
 .cell-2 {
+  color: #776e65;
   background-color: #eee4da;
+  font-size: 48px;
 }
 
 .cell-4 {
+  color: #776e65;
   background-color: #eee1c9;
+  font-size: 48px;
 }
 
 .cell-8 {
-  color: #f9f6f2;
   background-color: #f3b27a;
+  font-size: 48px;
 }
 
 .cell-16 {
-  color: #f9f6f2;
   background-color: #f69664;
+  font-size: 48px;
 }
 
 .cell-32 {
-  color: #f9f6f2;
   background-color: #f77c5f;
+  font-size: 48px;
 }
 
 .cell-64 {
-  color: #f9f6f2;
   background-color: #f75f3b;
+  font-size: 48px;
 }
 
 .cell-128 {
-  color: #f9f6f2;
   background-color: #edd073;
   font-size: 36px;
 }
 
 .cell-256 {
-  color: #f9f6f2;
   background-color: #edcc62;
   font-size: 36px;
 }
 
 .cell-512 {
-  color: #f9f6f2;
   background-color: #edc950;
   font-size: 36px;
 }
 
 .cell-1024 {
-  color: #f9f6f2;
   background-color: #edc53f;
-  font-size: 24px;
+}
+
+.cell-2048 {
+  background-color: #edc22e;
 }
