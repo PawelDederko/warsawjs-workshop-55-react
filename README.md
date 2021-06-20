@@ -1,3 +1,21 @@
+# warsawjs-workshop-55-react
+
+This is an app made in React during WarsawJS Workshop #55 that is a clone of a popular [2048 game](https://en.wikipedia.org/wiki/2048_(video_game)).
+
+## Live demo
+
+https://apps.dederko.pl/warsawjs-workshop-55-react/
+
+## Project setup
+```
+npm install
+```
+
+This project requires logic for 2048-like games:
+```
+npm install mykulyak-2048
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
